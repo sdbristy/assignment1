@@ -1,0 +1,49 @@
+/* banner header */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 160px;
+    text-align: center;
+}
+
+/* font type */
+.open-sans-uniquifier {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav ul{
+  list-style: none;
+}
+.btn{
+    padding: 15px 30px;
+    width: 116px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #006A50;
+    color: #006A50;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.btn2{
+    padding: 15px 30px;
+    width: 116px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #006A50;
+    color: #006A50;
+    text-align: center;
+    font-weight: 600;
+}
+.h3{
+
+
+}
+.p1{
+
+}
