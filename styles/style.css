@@ -16,6 +16,13 @@
     "wdth" 100;
 }
 
+.uniquifier {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
 nav ul{
   list-style: none;
 }
@@ -30,20 +37,76 @@ nav ul{
     font-weight: 600;
     
 }
+
+/* div design */
+.div1{
+display: flex;
+justify-content: space-between;
+padding: 80px 100px;
+
+background-color: #C6E4D6;
+border-radius: 24px;
+margin: 0 160px;
+background-position: center;
+
+height: 580px;
+}
+
+.div2{
+margin: 117px 0px 117px 0px;
+border-width: 100px;
+padding: 100px 80px;
+}
+.div3{
+    padding: 80px 0px;
+    width: 622px;
+}
+.div4{
+    width:622px;
+    height:326px;
+    text-align: left;
+    padding: 45px 0px 80px 0px;
+    justify-content:left;
+
+}
+.div5{
+
+    width:622px;
+    height:29px;
+    font-weight: medium, #0E0E0E,50%;
+    font-size: 24px;
+}
+.text{
+    font-weight: bold , #0E0E0E;
+    line-height: 50px;
+    
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 56px;
+    
+}
 .btn2{
     padding: 15px 30px;
-    width: 116px;
+    width: 270px;
+    height: 56px;
     border-radius: 10px;
     border-width: 1px;
-    border-color: #006A50;
-    color: #006A50;
+    background-color: #006A50;
+    color:#FFFFFF;
     text-align: center;
-    font-weight: 600;
+    font-weight: 202px;
 }
 .h3{
 
 
 }
 .p1{
-
+    font-weight: 600;
+    font-size: large;
+    color: #0E0E0E;
+}
+.pic{
+    width: 474px;
+    height: 400px;
+    padding: 80px 59px 80px;
 }
