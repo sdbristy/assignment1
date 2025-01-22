@@ -8,19 +8,23 @@
 }
 
 /* font type */
-.open-sans-uniquifier {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  
   font-weight: 800;
-  font-variation-settings:
-    "wdth" 100;
+  font-style: normal;
+ 
+    font-size: 32px;
 }
 
 .uniquifier {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
+    font-family: "Fira Sans", serif;
+  
+  font-weight: 800;
+  font-style: normal;
     font-variation-settings:
       "wdth" 100;
+      background-color: #F1F1F3;
   }
 
 nav ul{
@@ -73,16 +77,24 @@ padding: 100px 80px;
 
     width:622px;
     height:29px;
-    font-weight: medium, #0E0E0E,50%;
+    font-weight: medium;
+    color:rgba(14, 14, 14, 0.5);
+    
     font-size: 24px;
+    line-height: auto;
+    
 }
 .text{
     font-weight: bold , #0E0E0E;
-    line-height: 50px;
     
+    font-optical-sizing: auto;
   font-variation-settings:
     "wdth" 100;
-    font-size: 56px;
+    font-size: 50px;
+    align-items: top left;
+    width:622px;
+    height: 201px;
+    
     
 }
 .btn2{
@@ -90,11 +102,12 @@ padding: 100px 80px;
     width: 270px;
     height: 56px;
     border-radius: 10px;
-    border-width: 1px;
+    border-width: 0px;
     background-color: #006A50;
     color:#FFFFFF;
     text-align: center;
     font-weight: 202px;
+    font-size: 18px;
 }
 .h3{
 
@@ -109,4 +122,38 @@ padding: 100px 80px;
     width: 474px;
     height: 400px;
     padding: 80px 59px 80px;
+}
+/* body design */
+.maindiv{
+
+   
+  
+    margin: 80px 160px 80px 160px;
+    font-size: 40px;
+    
+}
+.secdiv{
+    margin:32px 16px  ;
+    width:1280px;
+    height:48px;
+    text-align: left top;
+}
+.div6{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.div7{
+    background-color: #FFFFFF;
+    width:302px;
+    height:224px;
+    border-radius: 5px;
+   
+}
+.div8{
+    width:254;
+    height:108;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    
 }
