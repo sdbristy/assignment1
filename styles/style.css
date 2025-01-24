@@ -157,3 +157,19 @@ padding: 100px 80px;
     color: rgba(14, 14, 14, 0.7);
     
 }
+#2ndsec{
+    width: 1280px;
+    height:765px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.textcolor{
+    color: rgba(14, 14, 14, 0.8);
+}
+.background{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+.bg{
+    color: rgba(14, 14, 14, 0.15);
+}
